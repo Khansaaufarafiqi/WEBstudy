@@ -56,6 +56,9 @@ nav .fa-solid {
   cursor: pointer;
   transition: all 0.6s;
 }
+.nav-list .beda::after {
+  height: 3px;
+}
 .nav-list ul li:hover::after {
   width: 100%;
 }
@@ -304,7 +307,7 @@ nav .fa-solid {
   color: violet;
 }
 .testimoni-col img {
-  /* flex-basis: 50%; */
+  flex-basis: 22%;
   height: 50px;
   width: 100px;
   margin-top: 20px;
@@ -407,7 +410,7 @@ footer h4 {
     flex-direction: column;
   }
   .testimoni-col img {
-    /* flex-basis: 50%; */
+    flex-basis: auto;
     height: 50px;
     width: 200px;
     margin-top: 20px;
