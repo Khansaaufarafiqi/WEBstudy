@@ -5,7 +5,9 @@
   font-family: "Pacifico", cursive;
   font-family: "Shadows Into Light", cursive;
   font-family: "Ubuntu", sans-serif;
-  /* overflow-x: hidden; */
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 .header {
   min-height: 100vh;
@@ -125,7 +127,7 @@ nav .fa-solid {
 }
 .baris .col {
   flex-basis: 31%;
-  background-color: cyan;
+  background-color: rgb(175, 228, 228);
   border-radius: 12px;
   margin-bottom: 5%;
   padding: 20px 12px;
