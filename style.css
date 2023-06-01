@@ -5,7 +5,7 @@
   font-family: "Pacifico", cursive;
   font-family: "Shadows Into Light", cursive;
   font-family: "Ubuntu", sans-serif;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 .header {
   min-height: 100vh;
@@ -345,7 +345,25 @@ footer h4 {
   margin-top: 20px;
   font-weight: 600;
 }
+.icons {
+  margin: 15px;
+}
+footer p {
+  text-transform: capitalize;
+}
+.icons .fa {
+  padding: 18px 0;
+  cursor: pointer;
+  margin: 0 13px;
+  color: blueviolet;
+}
+footer .fa-heart {
+  color: blueviolet;
+}
 @media (max-width: 700px) {
+  * {
+    overflow-x: hidden;
+  }
   .text-box h1 {
     font-size: 25px;
     font-weight: bold;
@@ -438,10 +456,10 @@ footer h4 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-left: 2.5rem;
+    margin-left: 1.5rem;
   }
   .col {
     width: 70%;
-    margin-left: 2.5rem;
+    margin-left: 2rem;
   }
 }
